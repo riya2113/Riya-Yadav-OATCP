@@ -1,0 +1,7 @@
+PS C:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab1\output> & .\'diceproblem.exe'
+4
+8
+PS C:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab1\output> cd 'c:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab1\output'
+PS C:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab1\output> & .\'diceproblem.exe'
+17
+59448
