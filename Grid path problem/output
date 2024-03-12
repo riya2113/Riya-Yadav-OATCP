@@ -1,0 +1,11 @@
+PS C:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab1> cd 'c:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab1\output'
+PS C:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab1\output> & .\'gridpath.exe'
+2
+.*
+*.
+PS C:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab1> cd 'c:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab1\output'
+PS C:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab1\output> & .\'gridpath.exe'
+4
+. * . .
+. . . *
+* . . .
