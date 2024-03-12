@@ -1,0 +1,58 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+const int MOD = 1000000007;
+
+int countPaths(int n, vector<vector<char>>& grid) {
+    vector<vector<int>> dp(n, vector<int>(n, 0));
+
+    // Base case: If the starting cell or ending cell has a trap, return 0 paths.
+    if (grid[0][0] == '*' || grid[n - 1][n - 1] == '*')
+        return 0;
+
+    dp[0][0] = 1;
+
+    // Fill the first row
+    for (int j = 1; j < n; j++) {
+        if (grid[0][j] == '*')
+            break;
+        dp[0][j] = dp[0][j - 1];
+    }
+
+    // Fill the first column
+    for (int i = 1; i < n; i++) {
+        if (grid[i][0] == '*')
+            break;
+        dp[i][0] = dp[i - 1][0];
+    }
+
+    // Fill the rest of the dp table
+    for (int i = 1; i < n; i++) {
+        for (int j = 1; j < n; j++) {
+            if (grid[i][j] == '*')
+                continue;
+            dp[i][j] = (dp[i - 1][j] + dp[i][j - 1]) % MOD;
+        }
+    }
+
+    return dp[n - 1][n - 1];
+}
+
+int main() {
+    int n;
+    cin >> n;
+    vector<vector<char>> grid(n, vector<char>(n));
+
+    // Input the grid
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cin >> grid[i][j];
+        }
+    }
+
+    // Count the number of paths
+    cout << countPaths(n, grid) << endl;
+
+    return 0;
+}
