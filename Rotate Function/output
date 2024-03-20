@@ -1,0 +1,28 @@
+Enter the number of elements: 4
+Enter the elements: 4
+3
+2
+6
+Maximum rotate value: 26
+
+PS C:\Users\riyayadav\OneDrive\Desktop\OATCP\output> cd 'c:\Users\riyayadav\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'max_rotate_function.exe'
+Enter the number of elements: 0
+Enter the elements: Maximum rotate value: 0
+
+PS C:\Users\riyayadav\OneDrive\Desktop\OATCP\output> cd 'c:\Users\riyayadav\OneDrive\Desktop\OATCP\output'
+PS C:\Users\riyayadav\OneDrive\Desktop\OATCP\output> & .\'max_rotate_function.exe'
+Enter the number of elements: 10
+Enter the elements: 4
+7
+3
+1
+0
+15
+8
+2
+9
+12
+
+Maximum rotate value: 333
+PS C:\Users\riyayadav\OneDrive\Desktop\OATCP\output>
