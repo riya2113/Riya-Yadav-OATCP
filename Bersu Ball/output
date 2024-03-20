@@ -1,0 +1,9 @@
+PS C:\Users\poona\OneDrive\Desktop\OATCP> cd 'c:\Users\riyayadav\OneDrive\Desktop\OATCP\output'
+
+PS C:\Users\riyayadav\OneDrive\Desktop\OATCP\output> & .\'Bersu Ball.exe'
+4
+1 4 6 2
+5 
+5 1 5 7 9 
+3
+PS C:\Users\riyayadav\OneDrive\Desktop\OATCP\output> 
