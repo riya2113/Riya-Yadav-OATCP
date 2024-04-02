@@ -7,3 +7,6 @@ Algorithm for the problem of Maximum Ice Bars
 5. If so, increase 'num_ice_creams' by 1 and deduct the price of the ice cream bar from the boy's total coin count.
 6. This method should be repeated until the boy runs out of coins or there are no more ice cream bars available for purchase.
 7. In the final step, give the boy's maximum allowed amount of ice cream bars by returning the value of 'num_ice_creams'.
+
+
+This algorithm will efficiently determine the maximum number of ice cream bars the boy can buy given his budget.
