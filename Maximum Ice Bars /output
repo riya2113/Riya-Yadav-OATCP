@@ -1,0 +1,18 @@
+PS C:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab3\output> cd 'c:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab3\output'
+PS C:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab3\output> & .\'maximum_ice_bars.exe'
+Enter the number of coins: 7
+Enter the ice cream bar prices separated by space: 1 3 2 4 1
+Maximum number of ice cream bars: 4
+PS C:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab3\output>
+
+t> & .\'maximum_ice_bars.exe'
+Enter the number of coins: 5
+Enter the ice cream bar prices separated by space: 10 6 8 7 7 8
+Maximum number of ice cream bars: 0
+PS C:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab3\output>
+
+PS C:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab3\output> & .\'maximum_ice_bars.exe'
+Enter the number of coins: 6
+Enter the ice cream bar prices separated by space: 4 2 7 3 1 3
+Maximum number of ice cream bars: 3
+
