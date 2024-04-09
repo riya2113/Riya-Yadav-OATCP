@@ -1,0 +1,6 @@
+PS C:\Users\Riya Yadav\OneDrive\Documents\SEM6\OACP\Lab4\output> & .\'smallest_integer.exe'
+653821
+3
+321
+
+
