@@ -1,6 +1,7 @@
-1. Initialize variables patches = 0, maxReach = 1, and i = 0.
-2. While maxReach <= n, repeat steps 3-6.
-3. If i < nums.size() and nums[i] <= maxReach, update maxReach to maxReach + nums[i], and increment i.
-4. Else, add maxReach to nums, update maxReach to maxReach * 2, and increment patches.
-5. Repeat step 2 until maxReach > n.
-6. Return patches.
+1. Initialize a counter for patches needed as 0.
+2. Start with index i at 0, representing the current position in the array.
+3. Start with a counter 'count' at 1.
+4. Iterate until 'count' reaches the target number 'n':
+5. If 'nums[i]' (current element in the array) is less than or equal to 'count', add 'nums[i]' to 'count' and move to the next element in the array.
+6. Otherwise, double 'count' and increment the patches counter.
+7. Return the count of patches needed.
